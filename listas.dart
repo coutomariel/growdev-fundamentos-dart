@@ -16,7 +16,4 @@ main() {
   print("Incluir [Mariel] na posição 1:");
   nomes.insert(1, "Mariel");
   print(nomes);
-
-  // Ativida:
-  // Criar lista de notas, usando for de 10 iterações e removendo notas mesnores que 5;
 }

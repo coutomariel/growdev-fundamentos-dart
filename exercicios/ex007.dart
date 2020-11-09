@@ -23,17 +23,11 @@ main() {
   var media = somaDasNotas / notas.length;
   print("Médias das notas: $media");
 
-  var maiorNota = notas.fold(
-      0,
-      (previousValue, element) =>
-          element > previousValue ? element : previousValue);
-
+  var maiorNota =
+      notas.fold(0, (maior, element) => element > maior ? element : maior);
   print("Maior nota: $maiorNota");
 
-  var menorNota = notas.fold(
-      0,
-      (previousValue, element) =>
-          element < previousValue ? element : previousValue);
-
+  var menorNota =
+      notas.fold(0, (menor, element) => element < menor ? element : menor);
   print("Menor nota: $menorNota");
 }
