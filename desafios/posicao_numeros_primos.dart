@@ -12,7 +12,7 @@ main() {
 
   int iterador = 1;
 
-  while (listaPrimos.length < 10001) {
+  while (listaPrimos.length < totalNumerosPrimos) {
     totalDivisores = 0;
 
     for (var i = 1; i <= iterador; i++) {
